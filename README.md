@@ -1,7 +1,8 @@
-# NFT Marketplace - Showcase
-![NFT Marketplace](https://i.ibb.co/X5kYdvB/image.png)
+# React + Vite
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Master React Native by building a modern NFT Marketplace iOS and Android #ReactNative Application in one video! Alongside developing the application, you'll also build a special landing page to showcase all of your app's features! Essentially, this is a full React Native Crash Course Tutorial video, enjoy!
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

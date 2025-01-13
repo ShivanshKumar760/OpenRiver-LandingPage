@@ -5,41 +5,41 @@ const styles = {
   bgWhite: "bg-white",
   bgPrimary: "bg-primary",
 
-  boxClass: "flex-row md:flex-col",
-  boxReverseClass: "flex-row-reverse md:flex-col-reverse",
+  boxClass: "flex flex-row md:flex-col",
+  boxReverseClass: "flex flex-row-reverse md:flex-col-reverse",
 
   textLeft: "text-left",
   textRight: "text-right",
 
   h1Text:
-    "font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
+    "font-bold font-IBMPlex text-4xl sm:text-3xl md:text-4xl lg:text-5xl leading-10 md:leading-12", // Reduced header text size
   pText:
-    "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
+    "my-4 md:my-8 font-IBMPlex font-light text-lg md:text-xl lg:text-2xl md:leading-14", // Reduced paragraph text size
   descriptionText:
-    "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
-  btnText: "text-white font-IBMPlex minmd:text-lg",
+    "my-4 md:my-8 font-IBMPlex font-light text-lg md:text-xl lg:text-2xl md:leading-14", // Reduced description text size
+  btnText: "text-white font-IBMPlex text-md md:text-lg", // Slightly smaller button text
 
   btnPrimary:
-    "bg-primary mt-4 py-4 px-6 text-white text-lg minmd:text-2xl font-IBMPlex font-medium rounded-lg hover:shadow-2xl",
+    "bg-black mt-4 py-3 px-5 text-white text-md md:text-lg font-IBMPlex font-medium rounded-lg hover:shadow-lg", // Slightly smaller button
   btnBlack:
-    "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
+    "bg-black flex items-center py-1.5 px-3 rounded-md mt-2 w-fit cursor-pointer", // Smaller black button
 
-  section: "flex justify-center items-center p-16 sm:p-8",
-  subSection: "flex items-center w-full minmd:w-3/4",
-  descDiv: "flex-1 w-full flex justify-start flex-col md:mb-10 ",
+  section: "flex justify-center items-center p-12 sm:p-6", // Reduced padding in sections
+  subSection: "flex items-center w-full md:w-2/3", // Smaller subsection width
+  descDiv: "flex-1 w-full flex justify-start flex-col md:mb-8", // Reduced margin for description div
 
   flexCenter: "flex justify-center items-center",
   flexWrap: "flex justify-center flex-wrap",
 
-  fullImg: "w-full h-full object-cover",
-  sectionImg: "w-full h-full minmd:w-11/12 minmd:h-11/12 object-contain",
-  btnIcon: "w-5 h-5 minmd:w-10 minmd:h-10 object-contain",
+  fullImg: "w-8/12 h-auto object-cover", // Further reduced image width
+  sectionImg: "w-6/12 h-auto md:w-5/12 object-contain", // Further reduced image size in sections
+  btnIcon: "w-3 h-3 md:w-5 md:h-5 object-contain", // Reduced icon size
 
-  featureImg: "w-20 h-20 minlg:w-40 minlg:h-40 object-contain mb-1",
+  featureImg: "w-10 h-10 lg:w-20 lg:h-20 object-contain mb-1", // Further reduced feature images
   featureText:
-    "font-semibold font-IBMPlex text-base minlg:text-3xl text-tertiary",
+    "font-semibold font-IBMPlex text-base lg:text-xl text-tertiary", // Reduced feature text size
   featureCard:
-    "bg-white m-10 p-6 rounded-md flex justify-around items-center flex-col hover:shadow-lg cursor-pointer w-40 h-40 minlg:w-80 minlg:h-80",
+    "bg-white m-6 p-4 rounded-md flex justify-around items-center flex-col hover:shadow-md cursor-pointer w-28 h-28 lg:w-48 lg:h-48", // Smaller feature cards
 };
 
 export default styles;
